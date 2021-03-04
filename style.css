@@ -1,0 +1,179 @@
+:root{
+    --greenishBlue: rgb(40,61,59);
+    --blue: rgb(25,114,120);
+    --whitePale: rgb(237,221,212);
+    --red: rgb(196,69,54);
+}
+/*AVATAR*/
+
+.avatarDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+}
+.avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.avatar.md{
+    width: 100px;
+    height: 100px;
+}
+.avatar.lg{
+    width: 150px;
+    height: 150px;
+}
+.badgeAvatar{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    background-color: greenyellow;
+}
+.badgeAvatar img{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.badgeAvatar span{
+    position: absolute;
+    background-color: var(--greenishBlue);
+    color: white;
+    border: 2px solid white;
+    min-width: 1rem;
+    min-height: 1rem;
+    padding: 0.2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -10px;
+    right: -10px;
+}
+.badgeAvatar.red span{
+    background-color: var(--red);
+}
+.badgeAvatar.blue span{
+    background-color: var(--blue);
+}
+
+/*BUTTONS*/
+
+.buttonDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+}
+.btn{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    background-color: var(--blue);
+    color: var(--whitePale);
+    cursor: pointer;
+}
+
+.btn.outline{
+    background: none;
+    border: 1px solid var(--blue);
+    color: var(--greenishBlue);
+}
+.btn.hover{
+    background: none;
+    color: var(--greenishBlue);
+}
+.btn.nobg{
+    background: none;
+    color: var(--greenishBlue);
+}
+.btn:hover{
+    background-color: var(--blue);
+    color: var(--whitePale);
+}
+.btn.nobg:hover{
+    background: none;
+    border: 2px solid var(--greenishBlue);
+    color: var(--greenishBlue);
+}
+
+.btnFloat{
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    background-color: var(--blue);
+    color: var(--whitePale);
+    box-shadow: 0 2px 5px rgba(41, 41, 41, 0.877);
+    cursor: pointer;
+}
+.btnFloat.md{
+    font-size: 2rem;
+    height: 3rem;
+    width: 3rem;
+}
+.btnFloat:hover{
+    box-shadow: 0 5px 10px rgba(48, 48, 48, 0.589);
+}
+
+/*CARD*/
+
+.cardDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--whitePale);
+    color: var(--greenishBlue);
+    margin: 1rem;
+}
+.cardHeader{
+    border-bottom: 1px solid var(--blue);
+    padding: 0rem 1rem;
+}
+.cardBody{
+    padding: 0 1rem;
+}
+.cardFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+.actionBtn{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--red);
+    color: var(--whitePale);
+    cursor: pointer;
+}
+.cardFooter button:hover{
+    background-color: var(--greenishBlue);
+    color: var(--whitePale);
+}
+
+.cardWithImage{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: var(--whitePale);
+    color: var(--greenishBlue);
+}
+.cardImg img{
+    width: 100%;
+}
