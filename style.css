@@ -5,7 +5,10 @@
     --red: rgb(196,69,54);
 }
 /*AVATAR*/
-
+h5, h4{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
 .avatarDiv{
     display: flex;
     flex-direction: column;
@@ -136,6 +139,7 @@
     background-color: var(--whitePale);
     color: var(--greenishBlue);
     margin: 1rem;
+    box-shadow: 0 3px 5px rgba(80, 80, 80, 0.692);
 }
 .cardHeader{
     border-bottom: 1px solid var(--blue);
@@ -164,16 +168,38 @@
     background-color: var(--greenishBlue);
     color: var(--whitePale);
 }
-
-.cardWithImage{
-    width: 30%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-    background-color: var(--whitePale);
-    color: var(--greenishBlue);
-}
 .cardImg img{
     width: 100%;
+}
+.ecommerceCard{
+    width: 20%;
+    height: auto;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--whitePale);
+    color: var(--greenishBlue);
+    margin: 1rem;
+    box-shadow: 0 3px 5px rgba(80, 80, 80, 0.692);
+    position: relative;
+}
+.cardBadge{
+    position: absolute;
+    display: inline-block;
+    padding: 0.5rem;
+    top: 1rem;
+    border-radius: 0 0.3rem 0.3rem 0;
+    background-color: var(--blue);
+    color: var(--whitePale);
+    
+}
+
+.cardPrice{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardPrice h5{
+    color: green;
 }
