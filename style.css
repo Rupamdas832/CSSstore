@@ -89,7 +89,7 @@ h5, h4{
     background: none;
     color: var(--greenishBlue);
 }
-.btn.nobg{
+.btn.unstyled{
     background: none;
     color: var(--greenishBlue);
 }
@@ -201,4 +201,33 @@ h5, h4{
 }
 .cardPrice h5{
     color: green;
+}
+.input{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+    text-align: center;
+    box-shadow: 0 3px 7px rgba(88, 88, 88, 0.671);
+}
+.input label{
+    background-color: var(--whitePale);
+    padding: 0.5rem;
+}
+.input input{
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid var(--blue);
+}
+.input input:focus{
+    background: #87ff62;
+}
+.input input:required{
+    border-bottom: 1px solid rgb(255, 21, 21);
+}
+.password{
+    width: 40%;
+    display: flex;
+}
+.password input{
+    width: 100%;
 }
