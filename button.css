@@ -1,0 +1,50 @@
+.buttonDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+}
+.btn{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    background-color: var(--orange);
+    
+    cursor: pointer;
+}
+
+.btn.outline{
+    background: none;
+    border: 1px solid var(--orange);
+    color: var(--darkGreen);
+}
+.btn.unstyled{
+    background: none;
+    color: var(--darkGreen);
+}
+.btn:hover{
+    background-color: var(--blue);
+    color: white;
+    border: 1px solid var(--blue);
+}
+
+.btnFloat{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    background-color: var(--orange);
+    color: var(--whitePale);
+    box-shadow: 0 2px 5px rgba(41, 41, 41, 0.877);
+    cursor: pointer;
+}
+.btnFloat.md{
+    
+    height: 3rem;
+    width: 3rem;
+}
+.btnFloat:hover{
+    box-shadow: 0 5px 10px rgba(48, 48, 48, 0.589);
+}
