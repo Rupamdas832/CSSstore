@@ -4,8 +4,38 @@
     --whitePale: rgb(237,221,212);
     --red: rgb(196,69,54);
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-size: 1.2rem;
+}
+/*NAVBAR*/
+.navDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: var(--greenishBlue);
+    color: white;
+    border-radius: 0.5rem;
+}
+.navBtn{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    color: var(--whitePale);
+    cursor: pointer;
 }
 /*AVATAR*/
 h5, h4{
@@ -142,6 +172,7 @@ h5, h4{
     color: var(--greenishBlue);
     margin: 1rem;
     box-shadow: 0 3px 5px rgba(80, 80, 80, 0.692);
+    border-radius: 0.5rem;
 }
 .cardHeader{
     border-bottom: 1px solid var(--blue);
@@ -172,6 +203,7 @@ h5, h4{
 }
 .cardImg img{
     width: 100%;
+    height: 100%;
 }
 .ecommerceCard{
     width: 20%;
@@ -183,6 +215,7 @@ h5, h4{
     color: var(--greenishBlue);
     margin: 1rem;
     box-shadow: 0 3px 5px rgba(80, 80, 80, 0.692);
+    border-radius: 0.5rem;
     position: relative;
 }
 .cardBadge{
@@ -195,16 +228,51 @@ h5, h4{
     color: var(--whitePale);
     
 }
-
 .cardPrice{
     width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: var(--blue);
 }
 .cardPrice h5{
     color: green;
 }
+
+.flatCard{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 1rem;
+    box-shadow: 0 3px 5px rgba(80, 80, 80, 0.692);
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+.imgFlat img{
+    width: 100%;
+}
+.detailFlat{
+    padding: 0 0 0 1rem;
+}
+.detailFlat h4{
+    color: var(--blue);
+}
+.priceFlat{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--blue);
+}
+.priceFlat h5{
+    color: green;
+}
+.btnsFlat{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /*INPUT*/
 .input{
