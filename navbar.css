@@ -24,6 +24,7 @@
 .navSearch.ecommerce input{
     padding: 0.2rem;
     border: none;
+    width: 90%;
 }
 .navBtn.ecommerce{
     background: none;
