@@ -18,7 +18,7 @@
     width: 60%;
     height: auto;
     position: absolute;
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(230, 230, 230);
     border-radius: 1rem;
 }
 .modalHeader{
@@ -26,4 +26,17 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+.imgModal{
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.829);
 }

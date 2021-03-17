@@ -77,16 +77,24 @@
 }
 
 .flatCard{
-    width: 40%;
+    width: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 2rem 1rem;
+    background-color: white;
     box-shadow: 0 3px 5px rgba(80, 80, 80, 0.692);
     border-radius: 0.5rem;
     margin: 1rem;
+    position: relative;
 }
 .imgFlat img{
     width: 100%;
+}
+.imgModalClose{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0.5rem;
 }
 .detailFlat{
     padding: 0 0 0 1rem;
