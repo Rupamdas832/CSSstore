@@ -15,6 +15,7 @@ passwordShow.addEventListener("click", showPassword)
 
 const modalOpen = document.querySelector("#modalOpen")
 const modalClose = document.querySelector("#modalClose")
+const modalBox = document.querySelector("modalBox")
 
 const imgModalClose = document.querySelector("#imgModalClose")
 const imgModalOpen = document.querySelector("#imgModalOpen")
@@ -41,6 +42,7 @@ function closeImgModal() {
 
 modalOpen.addEventListener("click", openModal)
 modalClose.addEventListener("click", closeModal)
+
 
 imgModalOpen.addEventListener("click", openImgModal)
 imgModalClose.addEventListener("click", closeImgModal)

@@ -12,7 +12,8 @@
     padding: 0.5rem;
     background-color: white;
     color: black;
-    
+    border: 1px solid var(--orange);
+    border-radius: 0.5rem;
 }
 .navSearch.ecommerce{
     display: flex;
