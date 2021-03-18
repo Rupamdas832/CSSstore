@@ -5,6 +5,8 @@
 @import "input.css";
 @import "navbar.css";
 @import "modal.css";
+@import "tooltip.css";
+@import "badge.css";
 
 :root{
     --darkGreen: rgb(40,61,59);
