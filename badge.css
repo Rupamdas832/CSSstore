@@ -9,10 +9,10 @@
 }
 .badge{
     position: absolute;
-    font-size: 1rem;
-    top: -10px;
-    right: -10px;
-    padding: 5px 10px;
+    font-size: 0.9rem;
+    top: -15px;
+    right: -5px;
+    padding: 0.3rem 0.5rem;
     border-radius: 50%;
     background-color: var(--orange);
     color: black;
