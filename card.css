@@ -78,7 +78,6 @@
     width: 45rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
     padding: 2rem 1rem;
     background-color: white;
     box-shadow: 0 3px 5px rgba(80, 80, 80, 0.692);
@@ -88,7 +87,7 @@
 }
 .imgFlat img{
     width: 100%;
-    height: auto;
+    max-height: 25rem;
 }
 .imgModalClose{
     position: absolute;
