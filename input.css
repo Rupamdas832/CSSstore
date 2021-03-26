@@ -1,5 +1,5 @@
 .input{
-    width: 40%;
+    width: 30rem;
     display: grid;
     grid-template-columns: 2fr 4fr; 
     text-align: center;
@@ -20,7 +20,7 @@
     background: #b4ff9d;
 }
 .password{
-    width: 40%;
+    width: 30rem;
     display: grid;
     grid-template-columns: 2fr 3fr 1fr;
     text-align: center;
@@ -40,4 +40,13 @@
 }
 .password input:focus{
     background: #b4ff9d;
+}
+
+@media only screen and (max-width: 450px){
+    .input{
+        width: 18rem;
+    }
+    .password{
+        width: 18rem;
+    }
 }

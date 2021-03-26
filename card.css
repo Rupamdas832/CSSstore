@@ -4,7 +4,7 @@
 }
 
 .card{
-    width: 450px;
+    width: 30rem;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@
     height: 100%;
 }
 .ecommerceCard{
-    width: 300px;
+    width: 20rem;
     height: auto;
     font-size: 1.1rem;
     display: flex;
@@ -75,7 +75,7 @@
 }
 
 .flatCard{
-    width: 650px;
+    width: 45rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 2rem 1rem;
@@ -115,4 +115,44 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 450px){
+    .card{
+        width: 18rem;
+    }
+    .cardHeader{
+        padding: 0 0.5rem;
+    }
+    .cardBody{
+        padding: 0 0.5rem;
+    }
+    .cardFooter{
+        padding: 0.5rem 0.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .ecommerceCard{
+        width: 9rem;
+        height: auto;
+        font-size: 0.8rem;
+        margin: 0.5rem;
+    }
+    .cardBadge{
+        padding: 0.3rem;
+    }
+    .cardPrice{
+        width: 80%;
+    }
+    .flatCard{
+        width: 18rem;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+        margin: 0.5rem;
+    }
+    .detailFlat{
+        padding: 0;
+    }
 }

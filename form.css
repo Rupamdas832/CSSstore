@@ -2,7 +2,7 @@
     margin: 1rem 0;
 }
 .form{
-    width: 50%;
+    width: 30rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -20,7 +20,7 @@
 }
 
 .formCard{
-    width: 25%;
+    width: 25rem;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -54,4 +54,13 @@
     background-color: var(--orange);
     border-radius: 1.5rem;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 450px){
+    .form{
+      width: 15rem;
+    }
+    .formCard{
+      width: 14rem;
+    }
   }
