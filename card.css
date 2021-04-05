@@ -64,6 +64,14 @@
     border-radius: 0 0.3rem 0.3rem 0;
     background-color: var(--orange);
 }
+.cardLike{
+    position: absolute;
+    display: inline-block;
+    padding: 0.5rem;
+    right: 0;
+    top: 1rem;
+    padding: 0;
+}
 .cardTitle{
     display: flex;
     justify-content: space-between;
