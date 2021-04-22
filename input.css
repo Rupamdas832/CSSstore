@@ -5,19 +5,19 @@
     text-align: center;
     margin: 0.3rem;
     box-shadow: 0 3px 5px rgba(117, 117, 117, 0.459);
+    margin-bottom: 0.5rem;
 }
 .input label{
     background-color: var(--whitePale);
     padding: 0.5rem;
     border-bottom: 1px solid var(--orange);
+    font-size: 0.9rem;
 }
 .input input{
     padding: 0.5rem;
+    font-size: 1.1rem;
     border: none;
     border-bottom: 1px solid var(--orange);
-}
-.input input:focus{
-    background: #b4ff9d;
 }
 .password{
     width: 30rem;
@@ -30,16 +30,15 @@
 .password label{
     background-color: var(--whitePale);
     padding: 0.5rem;
+    font-size: 0.9rem;
     border-bottom: 1px solid var(--orange);
 }
 .password input{
     width: 100%;
     padding: 0.5rem;
+    font-size: 1.1rem;
     border: none;
     border-bottom: 1px solid var(--orange);
-}
-.password input:focus{
-    background: #b4ff9d;
 }
 
 @media only screen and (max-width: 450px){
