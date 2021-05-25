@@ -12,7 +12,7 @@
 
 :root {
   --darkGreen: rgb(40, 61, 59);
-  --orange: rgb(212, 163, 0);
+  --orange: rgba(197, 151, 0, 0.973);
   --whitePale: rgb(237, 221, 212);
   --red: rgb(196, 69, 54);
   --blue: rgb(0, 113, 128);
